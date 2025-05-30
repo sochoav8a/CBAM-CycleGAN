@@ -2,7 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.7%2B-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.7%2B-orange.svg)](https://pytorch.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) (Presumed - Add your actual license!)
+
 
 This project implements a CycleGAN model for unpaired image-to-image translation, specifically tailored for confocal microscopy images. It allows transforming images from one microscopy domain to another without requiring paired training data.
 
@@ -138,12 +138,3 @@ Contributions are welcome! If you'd like to contribute, please follow these step
 4. Commit your changes (`git commit -m 'Add some feature'`).
 5. Push to the branch (`git push origin feature/your-feature-name`).
 6. Open a Pull Request.
-
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details (if you add one).
-*(Please replace with your actual license or remove this section if not applicable.)*
-
----
-
-*This README was proudly generated with the assistance of an AI Pair Programmer.* 😊 
