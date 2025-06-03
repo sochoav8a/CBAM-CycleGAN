@@ -1,0 +1,25 @@
+EVALUATION METRICS SUMMARY
+Checkpoint: /home/vivamed/cyclegan/outputs/checkpoints/latest_netG_A2B.pth
+Total image pairs: 118
+
+Fake HQ vs Real HQ:
+  PSNR:    19.0363 dB
+  SSIM:    0.5677
+  LPIPS:   0.0586 (lower is better)
+  MS-SSIM: 0.1975 (higher is better)
+
+Fake HQ vs Original LQ:
+  PSNR:    19.8846 dB
+  SSIM:    0.6854
+
+Real HQ vs Original LQ (Baseline):
+  PSNR:    16.5665 dB
+  SSIM:    0.5306
+  LPIPS:   0.1070 (lower is better)
+  MS-SSIM: 0.1943 (higher is better)
+
+MEJORA SOBRE EL BASELINE:
+  PSNR:    +2.4698 dB (76.60% mejor)
+  SSIM:    +0.0371 (6.99% mejor)
+  LPIPS:   -0.0484 (45.24% mejor)
+  MS-SSIM: +0.0033 (1.69% mejor)
