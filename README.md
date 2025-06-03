@@ -50,14 +50,13 @@ Key configurable aspects:
 *   NumPy
 *   Matplotlib
 *   tqdm
-*   (Other dependencies might be required, check imports in `.py` files)
+
 
 It's recommended to set up a virtual environment:
 ```bash
 python -m venv .venv
 source .venv/bin/activate
 pip install torch torchvision torchaudio numpy matplotlib tqdm
-# Add any other specific packages
 ```
 
 ### Data Preparation
@@ -92,10 +91,8 @@ To evaluate a trained model and generate translated images:
 
 Run the evaluation script:
 ```bash
-python src/evaluate.py
+python src/eval_3.py
 ```
-(Or `eval.py`, `eval_2.py`, `eval_3.py` - clarify which is the main evaluation script and its specific purpose if they differ.)
-
 Generated samples will be saved in `EVAL_SAMPLES_DIR`.
 
 ## 📁 Project Structure
@@ -116,12 +113,12 @@ Generated samples will be saved in `EVAL_SAMPLES_DIR`.
 │   ├── config.py               # Main configuration file
 │   ├── dataset.py              # Dataset loading and preprocessing
 │   ├── evaluate.py             # Evaluation script
-│   ├── eval.py                 # (Alternative evaluation script?)
-│   ├── eval_2.py               # (Alternative evaluation script?)
-│   ├── eval_3.py               # (Alternative evaluation script?)
+│   ├── eval.py                 # (Alternative evaluation script)
+│   ├── eval_2.py               # (Alternative evaluation script)
+│   ├── eval_3.py               # (Alternative evaluation script)
 │   ├── plot_losses.py          # Script to plot loss curves
 │   ├── train.py                # Main training script
-│   ├── train_r.py              # (Alternative training script? Purpose?)
+│   ├── train_r.py              # Train recovery
 │   ├── utils.py                # Utility functions (schedulers, saving, etc.)
 │   └── vgg_loss.py             # VGG perceptual loss implementation
 ├── .gitattributes
