@@ -35,7 +35,7 @@ This project implements a CycleGAN model for unpaired image-to-image translation
 *   **Easy Configuration**: Centralized configuration management via `src/config.py`.
 *   **Checkpointing**: Save and load model checkpoints for resuming training or evaluation.
 
-## 🏗️ Arquitectura Visualizada
+## 🏗️ CBAM Architecture
 
 <p align="center">
   <img src="results/CBAM-CycleGAN Architecture_cropped_page-0001.jpg" alt="CBAM-CycleGAN Architecture" width="80%"/>
